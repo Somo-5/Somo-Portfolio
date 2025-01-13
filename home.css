@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #141414;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #141414;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .menu ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.navbar .menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  color: burlywood;
+}
+
+.navbar .btn {
+  padding: 0.5rem 1.5rem;
+  background: burlywood;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+
+}
+
+.my {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 3rem;
+  margin-top: 5rem;
+}
+
+.my-content {
+  max-width: 60%;
+}
+
+.my-content h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.my-content .highlight {
+  background: linear-gradient(#ff7f50, #ff1493);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  text-fill-color: transparent; 
+}
+
+.my-content .subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.my-content hr {
+  width: 50px;
+  border: 2px solid #ff7f50;
+  margin: 1rem 0;
+}
+
+.my-content .description {
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.hire-btn {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  /* background-color: #007bff;  */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.hire-btn img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.hire-btn:hover {
+  background-color: #ff1493; /* Darker shade for hover effect */
+}
+
+
+
+.resume-btn {
+  padding: 0.7rem 2rem;
+  /* border: none; */
+  cursor: pointer;
+  border-radius: 50px;
+  background: linear-gradient(#ff7f50, #ff1493);
+  border-color: blue;
+}
+
+.hire-btn {
+  background-color: #ff7f50;
+  color: #fff;
+}
+
+.resume-btn {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.my-image img {
+  width: 330px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff7f50,#ff1493);
+  padding: 5px;
+  margin-right: 65px;
+}
+
+.contact {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact .highlight {
+  color: #ff7f50;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background: #222;
+  color: #fff;
+  outline: none;
+}
+
+form button {
+  background: #ff7f50;
+  border: none;
+  padding: 0.8rem 2rem;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background: blue;
+}
+
+footer {
+  background: black;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
